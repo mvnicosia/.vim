@@ -24,7 +24,7 @@ highlight LineNr ctermbg=white
 
 " highlight characters past character 80 in python files
 autocmd FileType python highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-autocmd FileType python match OverLength /\%81v.*/
+autocmd FileType python match OverLength /\%80v.*/
 
 " highlight markdown files
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
