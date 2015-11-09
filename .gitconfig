@@ -1,0 +1,12 @@
+[user]
+	email = michael.nicosia@RACKSPACE.COM
+	name = Michael Nicosia
+[push]
+	default = simple
+[core]
+	editor = vim
+[gitreview]
+	scheme = https
+	port = 443
+[url "https://"]
+	insteadOf = git://

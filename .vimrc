@@ -28,3 +28,5 @@ autocmd FileType python match OverLength /\%80v.*/
 
 " highlight markdown files
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+set tabpagemax=100
