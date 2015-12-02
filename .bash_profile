@@ -8,10 +8,15 @@ export HISTSIZE=2147483647
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
-# env variables
+# Vagrant development environment
 export HOST_SRC=$HOME/rax
+source $HOST_SRC/ansible/hacking/env-setup -q
+export VAGRANT_HOSTNAME=devbox
+export VAGRANT_IP=192.168.33.33
+
+# app options
 export GREP_OPTIONS='--exclude-dir=.git'
 
-# useful commands
+# useful MacOS commands
 alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
