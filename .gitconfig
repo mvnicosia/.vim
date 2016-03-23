@@ -5,6 +5,7 @@
 	default = simple
 [core]
 	editor = vim
+	excludesfile = /Users/mich7589/.gitignore_global
 [gitreview]
 	scheme = https
 	port = 443
