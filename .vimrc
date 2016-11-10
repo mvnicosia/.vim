@@ -47,3 +47,6 @@ set foldmethod=syntax
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2
+
+" scrolling: keeps cursor vertically centered on long pages
+set so=999

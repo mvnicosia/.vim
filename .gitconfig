@@ -5,7 +5,7 @@
 	default = simple
 [core]
 	editor = vim
-	excludesfile = /Users/mich7589/.vim/.gitignore_global
+	excludesfile = /home/vagrant/.gitignore_global
 [gitreview]
 	scheme = https
 	port = 443
