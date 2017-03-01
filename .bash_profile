@@ -20,3 +20,6 @@ export GREP_OPTIONS='--exclude-dir=.git'
 # useful MacOS commands
 alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
+
+#scripts
+PATH=$PATH:~/mvnicosia/scripts/bin
