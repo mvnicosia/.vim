@@ -49,3 +49,6 @@ set foldlevel=2
 
 " scrolling: keeps cursor vertically centered on long pages
 set so=999
+
+"ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
