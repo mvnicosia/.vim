@@ -34,10 +34,9 @@ autocmd FileType python match OverLength /\%80v.*/
 " highlight markdown files
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
-" nerdtree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" netrw (directory explorer)
+autocmd VimEnter * if !argc() | Explore | endif
+autocmd VimEnter * if isdirectory(expand('<afile>')) | Explore | endif
 
 " tabs
 set tabpagemax=100
