@@ -11,3 +11,7 @@
 	port = 443
 [url "https://"]
 	insteadOf = git://
+[init]
+	templatedir = ~/.vim/.git_template
+[alias]
+	ctags = !.git/hooks/ctags
