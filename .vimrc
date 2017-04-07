@@ -27,6 +27,9 @@ set number
 highlight LineNr ctermfg=black
 highlight LineNr ctermbg=white
 
+" show filenames
+set laststatus=2
+
 " highlight characters past character 80 in python files
 autocmd FileType python highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 autocmd FileType python match OverLength /\%80v.*/
