@@ -44,14 +44,9 @@ autocmd VimEnter * if isdirectory(expand('<afile>')) | Explore | endif
 " tabs
 set tabpagemax=100
 
-" code folding
-set foldmethod=syntax 
-set foldnestmax=10
-set nofoldenable
-set foldlevel=2
-
 " scrolling: keeps cursor vertically centered on long pages
 set so=999
 
 "ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_show_hidden = 1

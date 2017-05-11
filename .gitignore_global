@@ -1,4 +1,2 @@
 .DS_Store
 *.swp
-reports/*
-run_unit_tests
