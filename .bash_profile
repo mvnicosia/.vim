@@ -10,7 +10,9 @@ export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
 # Vagrant development environment
 export HOST_SRC=$HOME/rax
-source $HOST_SRC/ansible/hacking/env-setup -q
+export AUTOHOST=$HOST_SRC/Autohost
+export DCX=$HOST_SRC/dcx
+source ~/ansible/hacking/env-setup -q
 export VAGRANT_HOSTNAME=devbox
 export VAGRANT_IP=192.168.33.33
 
