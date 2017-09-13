@@ -14,6 +14,13 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" searching
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+nnoremap <CR> :noh<CR><CR>
+
 " indenting
 filetype plugin indent on
 set tabstop=2
@@ -21,6 +28,7 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set autoindent
+autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
 " line numbers
 set number

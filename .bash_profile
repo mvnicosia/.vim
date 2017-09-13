@@ -25,3 +25,4 @@ alias unfuck_trackpad='killall Dock'
 
 #scripts
 PATH=$PATH:~/mvnicosia/scripts/bin
+GOPATH=$HOME/go
