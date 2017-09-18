@@ -9,11 +9,6 @@ execute pathogen#infect()
 " syntax
 syntax on
 
-" colors
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
-
 " searching
 set ignorecase
 set smartcase

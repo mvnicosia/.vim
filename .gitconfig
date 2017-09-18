@@ -2,7 +2,7 @@
 	email = michael.nicosia@RACKSPACE.COM
 	name = Michael Nicosia
 [push]
-	default = simple
+	default = current
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global

@@ -24,5 +24,5 @@ alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
 
 #scripts
-PATH=$PATH:~/mvnicosia/scripts/bin
+PATH=$PATH:$DCX/docker/bin:~/mvnicosia/scripts/bin
 GOPATH=$HOME/go
