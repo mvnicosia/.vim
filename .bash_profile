@@ -23,8 +23,14 @@ export GREP_OPTIONS='--exclude-dir=.git'
 alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
 
-#scripts
+# scripts
 PATH=$PATH:$DCX/docker/bin:~/mvnicosia/scripts/bin
 GOPATH=$HOME/go
+
+# git 
+source ~/.vim/git-prompt.sh
+source ~/.vim/git-completion.bash
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\w$(__git_ps1 " (%s)")\$ '
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
