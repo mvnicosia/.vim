@@ -23,7 +23,7 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set autoindent
-autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
 
 " line numbers
 set number

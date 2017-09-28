@@ -26,3 +26,5 @@ alias unfuck_trackpad='killall Dock'
 #scripts
 PATH=$PATH:$DCX/docker/bin:~/mvnicosia/scripts/bin
 GOPATH=$HOME/go
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
