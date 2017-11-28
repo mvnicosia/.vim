@@ -25,6 +25,7 @@ alias unfuck_trackpad='killall Dock'
 
 # scripts
 PATH=$PATH:$DCX/docker/bin:~/mvnicosia/scripts/bin
+PATH=$PATH:$AUTOHOST/dev_machine_scripts/bin
 GOPATH=$HOME/go
 
 # git 

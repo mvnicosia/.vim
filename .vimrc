@@ -1,10 +1,13 @@
-" http://stackoverflow.com/questions/16902317/vim-slow-with-ruby-syntax-highlighting
-if version > 703
-  set re=1
-endif
-
-" pathogen (vim package manager)
-execute pathogen#infect()
+" add plugins
+call plug#begin('~/.vim/plugged')
+Plug 'kien/ctrlp.vim'
+Plug 'mileszs/ack.vim'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-vinegar'
+Plug 'w0rp/ale'
+call plug#end()
 
 " syntax
 syntax on
