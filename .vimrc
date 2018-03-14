@@ -1,7 +1,6 @@
 " add plugins
 call plug#begin('~/.vim/plugged')
 Plug 'kien/ctrlp.vim'
-Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
@@ -27,6 +26,8 @@ set shiftwidth=2
 set expandtab
 set autoindent
 autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
+autocmd FileType java setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
+autocmd FileType groovy setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
 
 " line numbers
 set number
@@ -56,6 +57,11 @@ set so=999
 "ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll|class)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
 
 " new splits
 set splitright
