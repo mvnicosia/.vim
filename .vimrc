@@ -1,3 +1,5 @@
+" https://github.com/junegunn/vim-plug
+" run :PlugUpdate
 " add plugins
 call plug#begin('~/.vim/plugged')
 Plug 'kien/ctrlp.vim'
