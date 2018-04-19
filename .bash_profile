@@ -32,9 +32,13 @@ PATH=$PATH:/usr/local/Cellar/node/8.9.1/bin
 GOPATH=$HOME/go
 
 # ruby
+# curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # python
+# easy_install pip
+# brew install pyenv
+# brew install pyenv-virtualenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
