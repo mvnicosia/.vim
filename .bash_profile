@@ -35,6 +35,9 @@ GOPATH=$HOME/go
 # curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+# rails
+export RAILS_ENV=development
+
 # python
 # easy_install pip
 # brew install pyenv
@@ -44,3 +47,5 @@ eval "$(pyenv virtualenv-init -)"
 
 # ssh
 eval `ssh-agent`; ssh-add
+
+# brew install ack

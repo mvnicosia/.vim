@@ -1,3 +1,6 @@
+" editing
+set backspace=indent,eol,start
+
 " https://github.com/junegunn/vim-plug
 " run :PlugUpdate
 " add plugins
@@ -9,6 +12,12 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-vinegar'
 Plug 'w0rp/ale'
 call plug#end()
+
+" ale configuration:
+" https://eslint.org/docs/user-guide/getting-started
+" brew install npm
+" npm install -g eslint
+" eslint --init
 
 " syntax
 syntax on
