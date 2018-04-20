@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/mich7589/.vim/.git'
+let g:netrw_dirhist_2='/Users/mich7589/rax/dcx/docker/bin'
+let g:netrw_dirhist_3='/Users/mich7589/.rvm'
+let g:netrw_dirhist_4='/Users/mich7589/mvnicosia/dotfiles/.git_template'
