@@ -11,6 +11,7 @@ export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 # useful MacOS commands
 alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
+alias unfuck_finder='killall Finder'
 
 # source
 export MVNICOSIA=$HOME/mvnicosia
