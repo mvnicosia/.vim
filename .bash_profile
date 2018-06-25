@@ -53,3 +53,4 @@ eval "$(pyenv virtualenv-init -)"
 eval `ssh-agent`; ssh-add
 
 # brew install ack
+# brew install git-flow

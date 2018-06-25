@@ -5,14 +5,14 @@
 	default = current
 [core]
 	editor = vim
-	excludesfile = .gitignore_global
+	excludesfile = ~/mvnicosia/dotfiles/gitconfig/.gitignore_global
 [gitreview]
 	scheme = https
 	port = 443
 [url "https://"]
 	insteadOf = git://
 [init]
-	templatedir = .git_template
+	templatedir = ~/mvnicosia/dotfiles/gitconfig/.git_template
 [alias]
   # https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
   # brew install ctags

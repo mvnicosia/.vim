@@ -57,8 +57,10 @@
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>-1270 417 620 392 -1920 -81 1920 1057 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>-1651 45 606 469 -1920 -81 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-1451 16 796 473 -1920 -81 1920 1057 </string>
+	<string>-1437 277 796 473 -1920 -81 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 23 1440 854 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -602,7 +604,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>10000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -667,6 +669,8 @@
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>545766827.586151</real>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -702,6 +706,10 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/mich7589/mvnicosia/dotfiles/iterm2</string>
+	<key>Print In Black And White</key>
+	<true/>
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -711,11 +719,15 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-05-04T13:15:47Z</date>
+	<date>2018-06-13T17:51:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>StretchTabsToFillBar</key>
+	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.1.6</string>
 </dict>
