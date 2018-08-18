@@ -1,3 +1,5 @@
+export EDITOR=vim
+
 # history
 export HISTTIMEFORMAT="%s "
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND}"'echo $$ $USER \
@@ -19,6 +21,12 @@ export MVNICOSIA=$HOME/mvnicosia
 export HOST_SRC=$HOME/rax
 export AUTOHOST=$HOST_SRC/Autohost
 export DCX=$HOST_SRC/dcx
+
+# dcx deploys
+# brew install ansible
+# git clone git@github.rackspace.com:dcx/dcxps-ansible.git
+# ansible-galaxy install -r requirements.yml
+export ANSIBLE_VAULT_PASSWORD_FILE='~/.dcxps_encryption_key'
 
 # git 
 export GREP_OPTIONS='--exclude-dir=.git'
