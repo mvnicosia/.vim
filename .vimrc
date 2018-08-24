@@ -15,6 +15,10 @@ Plug 'metakirby5/codi.vim'
 Plug 'leafgarland/typescript-vim'
 call plug#end()
 
+" colors
+set background=dark
+colorscheme desert
+
 " ale configuration:
 " https://eslint.org/docs/user-guide/getting-started
 " brew install npm
@@ -41,7 +45,6 @@ set autoindent
 autocmd FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
 autocmd FileType java setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
 autocmd FileType groovy setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
-let g:typescript_indent_disable=1
 
 " line numbers
 set number
