@@ -1,21 +1,25 @@
-export ZSH=$HOME/mvnicosia/dotfiles/oh-my-zsh
+# source
+export MVNICOSIA=$HOME/mvnicosia
+export DOTFILES=$MVNICOSIA/dotfiles
+export HOST_SRC=$HOME/rax
+export AUTOHOST=$HOST_SRC/Autohost
+export DCX=$HOST_SRC/dcx
+
+# zsh
+export ZSH=$DOTFILES/oh-my-zsh
 ZSH_THEME="agnoster"
 DEFAULT_USER="mich7589"
 prompt_context(){}
 DISABLE_AUTO_UPDATE="true"
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+ZSH_CUSTOM=$DOTFILES/oh-my-zsh-custom
 plugins=(
   git
   ssh-agent
   osx
+  zsh-syntax-highlighting
 )
-
-# ssh-agent configuration
 zstyle :omz:plugins:ssh-agent identities id_rsa
 zstyle :omz:plugins:ssh-agent agent-forwarding on
-
 source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
@@ -29,12 +33,6 @@ fi
 alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
 alias unfuck_finder='killall Finder'
-
-# source
-export MVNICOSIA=$HOME/mvnicosia
-export HOST_SRC=$HOME/rax
-export AUTOHOST=$HOST_SRC/Autohost
-export DCX=$HOST_SRC/dcx
 
 # dcx deploys
 # brew install ansible
