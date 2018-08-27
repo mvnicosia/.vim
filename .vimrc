@@ -34,6 +34,7 @@ set smartcase
 set hlsearch
 set incsearch
 nnoremap <CR> :noh<CR><CR>
+hi Search ctermbg=LightYellow ctermfg=Red
 
 " indenting
 filetype plugin indent on

@@ -18,7 +18,7 @@ plugins=(
   osx
   zsh-syntax-highlighting
 )
-zstyle :omz:plugins:ssh-agent identities id_rsa
+zstyle :omz:plugins:ssh-agent identities id_rsa production_deploy_id_rsa staging_deploy_id_rsa
 zstyle :omz:plugins:ssh-agent agent-forwarding on
 source $ZSH/oh-my-zsh.sh
 
