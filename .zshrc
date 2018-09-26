@@ -58,6 +58,9 @@ eval "$(pyenv virtualenv-init -)"
 # brew install ack
 # brew install git-flow
 
+# flutter
+export PATH=~/flutter/bin:$PATH
+
 # ruby
 # curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
 # NOTE: make sure this is at the bottom of the zshrc to avoid error

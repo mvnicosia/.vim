@@ -13,6 +13,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'w0rp/ale'
 Plug 'metakirby5/codi.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'dart-lang/dart-vim-plugin'
 call plug#end()
 
 " colors
@@ -59,8 +60,11 @@ set laststatus=2
 autocmd FileType python highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 autocmd FileType python match OverLength /\%80v.*/
 
-" highlight markdown files
+" markdown files
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+autocmd BufNewFile,BufReadPost *.md set linebreak
+autocmd BufNewFile,BufReadPost *.md set numberwidth=6
+autocmd BufNewFile,BufReadPost *.md set columns=106
 
 " netrw (directory explorer)
 autocmd VimEnter * if !argc() | Explore | endif
@@ -84,3 +88,7 @@ let g:ctrlp_custom_ignore = {
 " new splits
 set splitright
 set splitbelow
+
+" highlight trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
