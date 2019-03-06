@@ -34,6 +34,9 @@ alias unfuck_menu='killall -KILL SystemUIServer'
 alias unfuck_trackpad='killall Dock'
 alias unfuck_finder='killall Finder'
 
+# install brew
+export PATH="/usr/local/sbin:$PATH"
+
 # dcx deploys
 # brew install ansible
 # git clone git@github.rackspace.com:dcx/dcxps-ansible.git
@@ -68,3 +71,9 @@ export PATH=~/flutter/bin:$PATH
 
 # rails
 export RAILS_ENV=development
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
